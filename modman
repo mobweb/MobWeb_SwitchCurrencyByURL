@@ -1,0 +1,6 @@
+app/code/community/MobWeb/SwitchCurrencyByURL app/code/community/MobWeb/SwitchCurrencyByURL/
+
+app/etc/modules/MobWeb_SwitchCurrencyByURL.xml app/etc/modules/MobWeb_SwitchCurrencyByURL.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

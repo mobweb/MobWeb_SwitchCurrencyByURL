@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_SwitchCurrencyByURL>
+            <version>0.1.0</version>
+        </MobWeb_SwitchCurrencyByURL>
+    </modules>
+    <global>
+        <models>
+            <switchcurrencybyurl>
+                <class>MobWeb_SwitchCurrencyByURL_Model</class>
+            </switchcurrencybyurl>
+        </models>
+        <helpers>
+            <switchcurrencybyurl>
+                <class>MobWeb_SwitchCurrencyByURL_Helper</class>
+            </switchcurrencybyurl>
+        </helpers>
+    </global>
+    <frontend>
+        <events>
+            <controller_action_layout_load_before>
+                <observers>
+                    <switchcurrencybyurl>
+                        <type>singleton</type>
+                        <class>switchcurrencybyurl/observer</class>
+                        <method>controllerActionLayoutLoadBefore</method>
+                    </switchcurrencybyurl>
+                </observers>
+            </controller_action_layout_load_before>
+        </events>
+    </frontend>
+</config>
