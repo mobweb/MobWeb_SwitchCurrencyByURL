@@ -1,0 +1,15 @@
+{
+  "name": "mobweb/MobWeb_SwitchCurrencyByURL",
+  "license": "OSL-3.0",
+  "type": "magento-module",
+  "description": "Switch Magento Currency by URL Parameter",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"ModWeb GmbH",
+      "email":"info@mobweb.ch"
+    }
+    ]
+}
